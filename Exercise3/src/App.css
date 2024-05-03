@@ -1,0 +1,51 @@
+body {
+	font-size: 12px;
+	font-family: sans-serif;
+	background: #2c3e50;
+}
+/* Card  */
+.card {
+  width: 30%;
+  height: 170px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-container {
+  display:flex;
+  padding: 5px;
+  margin: 5px;
+}
+
+.card-container img{
+  width: 30%;
+  height: 150px;
+}
+
+.card-text{
+  margin-left: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+}
+
+.card-text button{
+  background-color: #3498db;
+  color: whitesmoke;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+.card-text button:hover{
+  background-color: aliceblue;
+  color: #2c3e50;
+}
+
+
+
